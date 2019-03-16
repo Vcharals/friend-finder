@@ -1,0 +1,68 @@
+body {
+   width: 75%;
+   margin: 0px auto; 
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-image: url("https://i.pinimg.com/originals/da/1d/1c/da1d1ca12720d0e5bdcfc519902666e9.jpg");
+   background-repeat: no-repeat;
+   background-size:  100% 100%;;
+}
+
+header {
+    height: 100px;
+}
+
+header > nav {
+    height: 100%;
+}
+
+main {
+    flex: 1 0 auto;
+    color: white;
+    max-height: 600px;
+    overflow: auto;
+}
+
+main h1 {
+    font-weight: bold;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+main h2 {
+    font-weight: 300;
+    font-family: 'Cinzel', serif;
+}
+
+main h3 {
+    font-family: 'Cinzel', serif;
+}
+
+main h5 {
+    font-family: 'Cinzel', serif;
+}
+
+#logo-icon {
+   margin-left: 50px;
+   margin-top: 20px;
+}
+
+#logo {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#head-nav-links {
+    margin-right: 50px;
+    margin-top: 20px;
+    background-color: #2a5440;
+}
+
+.mainpanel{
+   margin: 50px;
+}
+
+#mainpanel-content {
+    margin: 50px;
+}
