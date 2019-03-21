@@ -60,3 +60,6 @@ body {
  #userPhoto {
      color: white
  }
+ .select-wrapper input.select-dropdown {
+    color: white;
+}
